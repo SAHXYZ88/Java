@@ -1,7 +1,7 @@
 class Order{
     protected String orderId;
     protected double foodPrice;
-    static String resturantName = "Food Hub";
+    static String restaurantName = "Food Hub";
 
     Order(String orderId,double foodPrice){
         this.orderId = orderId;
@@ -29,7 +29,7 @@ class Order{
         return foodPrice+0;
     }
     public void display(){
-        System.out.println("Resturant's Name : " + resturantName);
+        System.out.println("Resturant's Name : " + restaurantName);
         System.out.println("Order Id : " +orderId);
         System.out.println("Price : " +foodPrice);
     }
