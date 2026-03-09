@@ -29,7 +29,7 @@ class Order{
         return foodPrice+0;
     }
     public void display(){
-        System.out.println("Resturant's Name : " + restaurantName);
+        System.out.println("Restaurant's Name : " + restaurantName);
         System.out.println("Order Id : " +orderId);
         System.out.println("Price : " +foodPrice);
     }
