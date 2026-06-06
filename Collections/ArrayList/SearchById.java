@@ -45,7 +45,7 @@ class Manager extends Employee {
         super.display();
     }
 }
-public class SearchByName {
+public class SearchById {
     public static void main(String[] args) {
         ArrayList<Employee> employees = new ArrayList<>();
 
