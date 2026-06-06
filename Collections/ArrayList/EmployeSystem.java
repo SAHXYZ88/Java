@@ -1,8 +1,8 @@
 import java.util.*;
 
 class Employee {
-    String name;
-    int id;
+    private String name;
+    private int id;
 
     Employee(String name, int id) {
         this.name = name;
