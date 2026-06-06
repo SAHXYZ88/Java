@@ -49,6 +49,9 @@ public class SearchByName {
     public static void main(String[] args) {
         ArrayList<Employee> employees = new ArrayList<>();
 
+        employees.add(new Developer("SAH", 213));
+        employees.add(new Manager("Shabnur", 01));
+
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter The Name You Want To Search : ");
