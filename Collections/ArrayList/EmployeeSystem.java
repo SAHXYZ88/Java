@@ -38,7 +38,7 @@ class Manager extends Employee {
     }
 }
 
-public class EmployeSystem{
+public class EmployeeSystem{
     public static void main(String[] args) {
         ArrayList<Employee> employees = new ArrayList<>();
 
