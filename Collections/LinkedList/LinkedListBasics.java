@@ -8,6 +8,17 @@ public class LinkedListBasics {
         players.addLast("Rizwan");
         players.addLast("Zaid");
 
+        players.removeFirst();
+
+        System.out.println("After Removing First : ");
+        for (String player : players) {
+            System.out.println(player);
+        }
+
+        players.removeLast();
+        System.out.println();
+
+        System.out.println("After Removing Last : ");
         for (String player : players) {
             System.out.println(player);
         }
