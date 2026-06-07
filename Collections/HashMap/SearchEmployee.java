@@ -38,7 +38,7 @@ class Manager extends Employee {
     }
 }
 
-public class SearchEmployeeHashMap {
+public class SearchEmployee {
     public static void main(String[] args) {
         HashMap<Integer, Employee> employees = new HashMap<>();
 
